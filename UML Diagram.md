@@ -1,5 +1,5 @@
-# UML Diagram for the project
-## List of members
+# OOProject-Jan23-Flappy-Bird Project
+## List of Member
 |      Name      |      ID       |
 | -------------- | ------------- |
 |   Farah Fuaad  |    22009174   |
@@ -12,5 +12,5 @@
 | Muhammad Harif bin Mohd Afendi |    22007165   |
 |  Syakir   |      |
 
-### Assigned members for each classes
+### UML Diagram
 <img title="a title" alt="Alt text" src="https://user-images.githubusercontent.com/71580075/223752127-cae1d1d8-2677-4ffd-8aa1-9033589127f0.png">
