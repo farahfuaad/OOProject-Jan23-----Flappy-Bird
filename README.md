@@ -1,5 +1,5 @@
 # OOP-Project-Jan23-Flappy-Bird
-### Team: We showed up!
+### Team: (Team name)
 ![](https://img.shields.io/badge/java-17-blue)
 ![](https://img.shields.io/badge/game-FlappyBird-brightgreen)
 
