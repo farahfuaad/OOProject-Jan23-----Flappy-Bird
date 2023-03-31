@@ -1,7 +1,5 @@
 # OOP-Project-Jan23-Flappy-Bird
-### Team: (Team name)
-![](https://img.shields.io/badge/java-17-blue)
-![](https://img.shields.io/badge/game-FlappyBird-brightgreen)
+### Team: Flappy Bird
 
 **List of members:**  
 
@@ -18,13 +16,18 @@
 |  Mohamad Aiman Syakir bin Anol Sazali   | 21001337 |
 
 
+
 **Introduction:**
-* *Motivation: .....*  
+* Flappy Bird is a popular game that involves guiding a bird through a series of pipes by tapping the screen to make it fly. 
+* In an OOP Flappy Bird game, the game would be designed using classes to represent the bird, the pipes, the background, and other game elements. Each class would have its own set of properties and behaviors, such as the bird's speed and position, the pipe's position and size, and the background's color. 
+* The game logic would be implemented through methods that would update the properties of these objects based on user input and game rules, such as collision detection and score calculation. 
+* OOP principles can make the design and maintenance of the game easier and more organized by encapsulating data and behaviors within classes, and by allowing for inheritance and polymorphism to create more complex game elements. 
 
 
-* *Task allocation:*
->1. Farah Fuaad: 
->2. Aunullah Memon:   
+
+**Task allocation:**
+>1. Farah Fuaad: Team leader, write report, gamescreen
+>2. Aunullah Memon:  
 >3. Teoh Lynn Yi: 
 >4. Muhammad Hafizul Iman bin Mohd Fazni: 
 >5. Ahmad Lutfi bin Ahmad Shaarizan:
