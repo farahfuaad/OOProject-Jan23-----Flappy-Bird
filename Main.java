@@ -240,11 +240,11 @@ public class Main implements ActionListener, KeyListener {
 	 * Method that performs the splash screen graphics movements
 	 */
 	private void gameScreen(boolean isSplash) {
-		BottomPipe bp1 = new BottomPipe(PIPE_WIDTH, PIPE_HEIGHT);
-		BottomPipe bp2 = new BottomPipe(PIPE_WIDTH, PIPE_HEIGHT);
-		TopPipe tp1 = new TopPipe(PIPE_WIDTH, PIPE_HEIGHT);
-		TopPipe tp2 = new TopPipe(PIPE_WIDTH, PIPE_HEIGHT);
-		Bird bird = new Bird(BIRD_WIDTH, BIRD_HEIGHT);
+		BottomHalf bp1 = new BottomHalf(PIPE_WIDTH, PIPE_HEIGHT);
+		BottomHalf bp2 = new BottomHalf(PIPE_WIDTH, PIPE_HEIGHT);
+		TopHalf tp1 = new TopHalf(PIPE_WIDTH, PIPE_HEIGHT);
+		TopHalf tp2 = new TopHalf(PIPE_WIDTH, PIPE_HEIGHT);
+		Character bird = new Character(BIRD_WIDTH, BIRD_HEIGHT);
 		
 		//variables to track x and y image locations for the bottom pipe
 		int xLoc1 = SCREEN_WIDTH+SCREEN_DELAY, xLoc2 = (int) ((double) 3.0/2.0*SCREEN_WIDTH+PIPE_WIDTH/2.0)+SCREEN_DELAY;
@@ -352,7 +352,7 @@ public class Main implements ActionListener, KeyListener {
 	 * @param bp2 Second BottomPipe object
 	 * @param bird Bird object
 	 */
-	private void updateScore(BottomPipe bp1, BottomPipe bp2, Bird bird) {
+	private void updateScore(BottomHalf bp1, BottomHalf bp2, Character bird) {
 		if(bp1.getX() + PIPE_WIDTH < bird.getX() && bp1.getX() + PIPE_WIDTH > bird.getX() - X_MOVEMENT_DIFFERENCE) {
 			pgs.incrementJump();
 		}
@@ -369,7 +369,7 @@ public class Main implements ActionListener, KeyListener {
 	 * @param tp2 Second TopPipe object
 	 * @param bird Bird object
 	 */
-	private void collisionDetection(BottomPipe bp1, BottomPipe bp2, TopPipe tp1, TopPipe tp2, Bird bird) {
+	private void collisionDetection(BottomHalf bp1, BottomHalf bp2, TopHalf tp1, TopHalf tp2, Character bird) {
 		collisionHelper(bird.getRectangle(), bp1.getRectangle(), bird.getBI(), bp1.getBI());
 		collisionHelper(bird.getRectangle(), bp2.getRectangle(), bird.getBI(), bp2.getBI());
 		collisionHelper(bird.getRectangle(), tp1.getRectangle(), bird.getBI(), tp1.getBI());
