@@ -80,7 +80,7 @@ What each class (basically) does :
 3. Other
   * Github project page:  https://github.com/farahfuaad/OOProject-Jan23-Flappy-Bird/blob/master/README.md
   * Project Proposal [UPDATED]: [Java Application Project Proposal - Flappy Bird.pdf](https://github.com/farahfuaad/OOProject-Jan23-Flappy-Bird/files/11131667/Java.Application.Project.Proposal.-.Flappy.Bird.pdf)
-  * Team Commits in github: (Link)  
+  * Team Commits in github: https://github.com/farahfuaad/OOProject-Jan23-Flappy-Bird/commits/master 
   * Features:  
     Practically playable flappy bird game. Things to note:
     -collision detection using rectangles for hitbox
