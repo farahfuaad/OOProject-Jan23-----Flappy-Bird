@@ -13,7 +13,7 @@ import java.awt.image.BufferedImage;
 
 import javax.swing.*;
 
-public class TopClass implements ActionListener, KeyListener {
+public class Main implements ActionListener, KeyListener {
 	//global constant variables
 	private static final int SCREEN_WIDTH = (int) Toolkit.getDefaultToolkit().getScreenSize().getWidth();
 	private static final int SCREEN_HEIGHT = (int) Toolkit.getDefaultToolkit().getScreenSize().getHeight();
@@ -36,18 +36,18 @@ public class TopClass implements ActionListener, KeyListener {
 	private Object buildComplete = new Object();
 	
 	//global swing objects
-	private JFrame f = new JFrame("Flappy Bird Redux");
+	private JFrame f = new JFrame("Flappy Bird - OOP Jan 2023");
 	private JButton startGame;
 	private JPanel topPanel; //declared globally to accommodate the repaint operation and allow for removeAll(), etc.
 	
 	//other global objects
-	private static TopClass tc = new TopClass();
+	private static Main tc = new Main();
 	private static PlayGameScreen pgs; //panel that has the moving background at the start of the game
 	
 	/**
 	 * Default constructor
 	 */
-	public TopClass() {
+	public Main() {
 		
 	}
 	
@@ -98,7 +98,7 @@ public class TopClass implements ActionListener, KeyListener {
 		topPanel.setLayout(overlay);
 		
 		//Start Game JButton
-		startGame = new JButton("Start Playing!");
+		startGame = new JButton("START PLAYING");
 		startGame.setBackground(Color.WHITE);
 		startGame.setForeground(Color.BLUE);
 		startGame.setFocusable(false); //rather than just setFocusabled(false)
