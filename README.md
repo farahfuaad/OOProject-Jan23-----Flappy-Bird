@@ -76,7 +76,7 @@
 > - Gamescreen: This houses the start button, background fading, the background for the game and main menu, and the score.
 
 **3. Other**
->   * Github project page:  https://github.com/farahfuaad/OOProject-Jan23-Flappy-Bird/blob/master/README.md
+>   * Github project page:https://github.com/farahfuaad/OOProject-Jan23-Flappy-Bird
 >   * Project Proposal [UPDATED]: [Java Application Project Proposal - Flappy Bird.pdf](https://github.com/farahfuaad/OOProject-Jan23-Flappy-Bird/files/11131667/Java.Application.Project.Proposal.-.Flappy.Bird.pdf)
 >    * Team Commits in github: https://github.com/farahfuaad/OOProject-Jan23-Flappy-Bird/commits/master 
 >   * Features:  
