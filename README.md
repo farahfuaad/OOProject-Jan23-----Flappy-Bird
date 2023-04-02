@@ -78,19 +78,16 @@ What each class (basically) does :
 - Gamescreen: This houses the start button, background fading, the background for the game and main menu, and the score.
 
 3. Other
-* Show the github project page:  https://github.com/farahfuaad/OOProject-Jan23-Flappy-Bird/blob/master/README.md
-Report: (Link)  
-Team Commits in github: (Link)  
-* Features:  
-  Practically playable flappy bird game. Things to note:
-  -collision detection using rectangles for hitbox
-  -only one mode (endless mode)
-  -Tubes are randomly generated, moves alongside the background.
-  -Bird is a seperate entity from the background to accomodate collision detection methods.
+  * Github project page:  https://github.com/farahfuaad/OOProject-Jan23-Flappy-Bird/blob/master/README.md
+  * Project Proposal [UPDATED]: [Java Application Project Proposal - Flappy Bird.pdf](https://github.com/farahfuaad/OOProject-Jan23-Flappy-Bird/files/11131667/Java.Application.Project.Proposal.-.Flappy.Bird.pdf)
+  * Team Commits in github: (Link)  
+  * Features:  
+    Practically playable flappy bird game. Things to note:
+    -collision detection using rectangles for hitbox
+    -only one mode (endless mode)
+    -Tubes are randomly generated, moves alongside the background.
+    -Bird is a seperate entity from the background to accomodate collision detection methods.
   
-* Project Proposal [UPDATED]: [Java Application Project Proposal - Flappy Bird.pdf](https://github.com/farahfuaad/OOProject-Jan23-Flappy-Bird/files/11131667/Java.Application.Project.Proposal.-.Flappy.Bird.pdf)
-
-
 * Demo:
 
 
