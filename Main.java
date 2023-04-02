@@ -346,7 +346,7 @@ public class Main implements ActionListener, KeyListener {
 	private int bottomPipeLoc() {
 		int temp = 0;
 		//iterate until temp is a value that allows both pipes to be onscreen
-		while(temp <= PIPE_GAP+40 || temp >= SCREEN_HEIGHT-PIPE_GAP) {
+		while(temp <= PIPE_GAP+50 || temp >= SCREEN_HEIGHT-PIPE_GAP) {
 			temp = (int) ((double) Math.random()*((double)SCREEN_HEIGHT));
 		}
 		return temp;
