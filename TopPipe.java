@@ -13,7 +13,7 @@ public class TopPipe {
 	 * Default constructor
 	 */
 	public TopPipe(int initialWidth, int initialHeight) {
-		topPipe = Toolkit.getDefaultToolkit().getImage(this.getClass().getResource("resources/tube_top.png"));
+		topPipe = Toolkit.getDefaultToolkit().getImage(this.getClass().getResource("resources/wood.png"));
 		scaleTopPipe(initialWidth, initialHeight);
 	}
 
