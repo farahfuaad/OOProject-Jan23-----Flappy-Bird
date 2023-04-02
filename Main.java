@@ -10,9 +10,9 @@ import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.awt.image.BufferedImage;
-
-
 import javax.swing.*;
+
+
 
 public class Main implements ActionListener, KeyListener {
 	//global constant variables
@@ -58,7 +58,11 @@ public class Main implements ActionListener, KeyListener {
 	 */
 	public static void main(String[] args) {
 		//build the GUI on a new thread
-		
+		//sound
+		String filePath = "resources/sound.wav";
+		Sound play = new Sound();
+    	play.playMusic(filePath);
+	 
 		javax.swing.SwingUtilities.invokeLater(new Runnable() {
 			public void run() {
 				tc.buildFrame();
@@ -73,6 +77,8 @@ public class Main implements ActionListener, KeyListener {
 			}
 		});
 	}
+
+	
 	
 	/**
 	 * Method to construct the JFrame and add the program content
