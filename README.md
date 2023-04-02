@@ -87,10 +87,12 @@ Team Commits in github: (Link)
   -only one mode (endless mode)
   -Tubes are randomly generated, moves alongside the background.
   -Bird is a seperate entity from the background to accomodate collision detection methods.
-* Presentation: (Slide link)
+  
+* Project Proposal [UPDATED]: [Java Application Project Proposal - Flappy Bird.pdf](https://github.com/farahfuaad/OOProject-Jan23-Flappy-Bird/files/11131667/Java.Application.Project.Proposal.-.Flappy.Bird.pdf)
+
 
 * Demo:
-https://content.instructables.com/FW4/BUEG/IM9E2D3Z/FW4BUEGIM9E2D3Z.jar
+
 
 
 * UML Diagram:  
