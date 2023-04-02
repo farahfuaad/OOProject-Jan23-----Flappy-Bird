@@ -99,8 +99,8 @@ public class TopClass implements ActionListener, KeyListener {
 		
 		//Start Game JButton
 		startGame = new JButton("Start Playing!");
-		startGame.setBackground(Color.BLUE);
-		startGame.setForeground(Color.WHITE);
+		startGame.setBackground(Color.WHITE);
+		startGame.setForeground(Color.BLUE);
 		startGame.setFocusable(false); //rather than just setFocusabled(false)
 		startGame.setFont(new Font("Calibri", Font.BOLD, 42));
 		startGame.setAlignmentX(0.5f); //center horizontally on-screen
