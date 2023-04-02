@@ -16,9 +16,9 @@ public class PlayGameScreen extends JPanel {
 	private String message = "Flappy Bird";
 	private Font primaryFont = new Font("Goudy Stout", Font.BOLD, 56), failFont = new Font("Calibri", Font.BOLD, 56);
 	private int messageWidth = 0, scoreWidth = 0;
-	private BottomPipe bp1, bp2;
-	private TopPipe tp1, tp2;
-	private Bird bird;
+	private BottomHalf bp1, bp2;
+	private TopHalf tp1, tp2;
+	private Character bird;
 
 	/**
 	 * Default constructor for the PlayGameScreen class
@@ -81,7 +81,7 @@ public class PlayGameScreen extends JPanel {
 	 * @param bp1 The first BottomPipe
 	 * @param bp2 The second BottomPipe
 	 */
-	public void setBottomPipe(BottomPipe bp1, BottomPipe bp2) {
+	public void setBottomPipe(BottomHalf bp1, BottomHalf bp2) {
 		this.bp1 = bp1;
 		this.bp2 = bp2;
 	}
@@ -91,7 +91,7 @@ public class PlayGameScreen extends JPanel {
 	 * @param tp1 The first TopPipe
 	 * @param tp2 The second TopPipe
 	 */
-	public void setTopPipe(TopPipe tp1, TopPipe tp2) {
+	public void setTopPipe(TopHalf tp1, TopHalf tp2) {
 		this.tp1 = tp1;
 		this.tp2 = tp2;
 	}
@@ -100,7 +100,7 @@ public class PlayGameScreen extends JPanel {
 	 * Parsing method for PlayGameScreen's global Bird variable
 	 * @param bird The Bird object
 	 */
-	public void setBird(Bird bird) {
+	public void setBird(Character bird) {
 		this.bird = bird;
 	}
 	

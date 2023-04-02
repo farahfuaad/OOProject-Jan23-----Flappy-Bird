@@ -4,7 +4,7 @@ import java.awt.Toolkit;
 import java.awt.Image;
 import java.awt.image.BufferedImage;
 
-public class Bird {
+public class Character {
 	//global variables
 	private Image flappyBird;
 	private int xLoc = 0, yLoc = 0;
@@ -12,7 +12,7 @@ public class Bird {
 	/**
 	 * Default constructor
 	 */
-	public Bird(int initialWidth, int initialHeight) {
+	public Character(int initialWidth, int initialHeight) {
 		flappyBird = Toolkit.getDefaultToolkit().getImage(this.getClass().getResource("resources/blue_bird.png"));
 		scaleBird(initialWidth, initialHeight);
 	}

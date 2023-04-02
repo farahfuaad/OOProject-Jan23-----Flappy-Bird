@@ -4,7 +4,7 @@ import java.awt.Toolkit;
 import java.awt.Image;
 import java.awt.image.BufferedImage;
 
-public class BottomPipe {
+public class BottomHalf {
 	//global variables
 	private Image bottomPipe;
 	private int xLoc = 0, yLoc = 0;
@@ -12,7 +12,7 @@ public class BottomPipe {
 	/**
 	 * Default constructor
 	 */
-	public BottomPipe(int initialWidth, int initialHeight) {
+	public BottomHalf(int initialWidth, int initialHeight) {
 		bottomPipe = Toolkit.getDefaultToolkit().getImage(this.getClass().getResource("resources/tube_bottom.png"));
 		scaleBottomPipe(initialWidth, initialHeight);
 	}

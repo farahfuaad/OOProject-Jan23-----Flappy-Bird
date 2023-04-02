@@ -4,7 +4,7 @@ import java.awt.Toolkit;
 import java.awt.Image;
 import java.awt.image.BufferedImage;
 
-public class TopPipe {
+public class TopHalf {
 	//global variables
 	private Image topPipe;
 	private int xLoc = 0, yLoc = 0;
@@ -12,7 +12,7 @@ public class TopPipe {
 	/**
 	 * Default constructor
 	 */
-	public TopPipe(int initialWidth, int initialHeight) {
+	public TopHalf(int initialWidth, int initialHeight) {
 		topPipe = Toolkit.getDefaultToolkit().getImage(this.getClass().getResource("resources/tube_top.png"));
 		scaleTopPipe(initialWidth, initialHeight);
 	}
