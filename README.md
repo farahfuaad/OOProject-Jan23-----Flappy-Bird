@@ -24,76 +24,75 @@
 * OOP principles can make the design and maintenance of the game easier and more organized by encapsulating data and behaviors within classes, and by allowing for inheritance and polymorphism to create more complex game elements. 
 
 
-
 **Task allocation:**
->1. Farah Fuaad: Team leader, write report, gamescreen
->2. Aunullah Memon: BottomHalf
->3. Teoh Lynn Yi: JPanel
->4. Muhammad Hafizul Iman bin Mohd Fazni: JPanel, write report
->5. Ahmad Lutfi bin Ahmad Shaarizan: Character
->6. Arham Tafhim bin Arnizzam: ActionListener, KeyListener
->7. Nur Ainin Sofiya binti Tukiran: BottomHalf
->8. Muhammad Harif bin Mohd Afendi: TopHalf
->9. Mohamad Aiman Syakir bin Anol Sazali: TopHalf
+>1. Farah Fuaad: Team leader, write project info, incharge in gamescreen class
+>2. Aunullah Memon: incharge in BottomHalf class
+>3. Teoh Lynn Yi: incharge in JPanel class
+>4. Muhammad Hafizul Iman bin Mohd Fazni: incharge in JPanel class, write project info
+>5. Ahmad Lutfi bin Ahmad Shaarizan: incharge in Character class
+>6. Arham Tafhim bin Arnizzam: incharge in ActionListener, KeyListener (Main class)
+>7. Nur Ainin Sofiya binti Tukiran: incharge in BottomHalf class , write project info
+>8. Muhammad Harif bin Mohd Afendi: incharge in TopHalf class, compiling the video presentation
+>9. Mohamad Aiman Syakir bin Anol Sazali: incharge in TopHalf class
 
 
 **Technologies:**
-> Java 17  
-> A java based development environment (intellij, bluej)
-> Computer/Laptop which can run Java
+> - Java 17  
+> - A java based development environment (intellij, bluej)
+> - Computer/Laptop which can run Java
+
 
 **How to run:**  
-- Ensure user has the latest JDK (Java Development Kit)
-- Simply install the .jar file given in demo section
-- Enjoy!
+> - Ensure user has the latest JDK (Java Development Kit)
+> - Simply install and click the .jar file given in demo section
+> - Enjoy!
+
 
 **The project "Flappy Bird":**
-> 1. The rules:
-- About the rules of the button and the arrow flashes
-  > a) The button:
-    + ...
-    + ...
 
-  > b) The signal to move:
-    + ...
-    + ...
-- About the rules to play the game
-    + ...
-    + ...
-> 2. Design:
-- Background: Nothing fancy, just an ultramarine shade of blue with the floor having a olive green colour. This part will move.
-- Fading Background: BLack fades back into the original game background of blue sky and green floor.
-- Bird: Simple static blue bird
-- Tube: Simple green tube with some shading for depth effect for the top, green coloured. With the second tube having the exact same design just rotated 180 degrees using photoshop used for the bottom. Each tube's seperated length is the same and only their length relative to the ceiling and floor changes.
+**1. The rules to play the game**
+> - Using 'spacebar' to control the bird (fly up or down)
+> - During the play, the player must maintain a safe distance between the bird and the pipe. It means that the bird must not fly too high (hit the upper pipe) nor should the bird fly too low (hit the lower pipe). 
+> - If the bird follows the safe spots, the game will continue.
+> - While, if the bird hits the pipe or ground, it will die and the game will be over.
+> - To restart the game, click 'B'.
+> - To exit the game, click 'esc'.
 
-What each class (basically) does :
-- Action/KeyListener: reads the input of the user on the keyboard like Spacebar to hover, 'B' to restart and esc to quit the game
+**2. Design:**
+> - Background: Nothing fancy, just an ultramarine shade of blue with the floor having a olive green colour. This part will move.
+> - Fading Background: BLack fades back into the original game background of blue sky and green floor.
+> - Bird: Simple static blue bird
+> - Tube: Simple green tube with some shading for depth effect for the top, green coloured. With the second tube having the exact same design just rotated 180 degrees using photoshop used for the bottom. Each tube's seperated length is the same and only their length relative to the ceiling and floor changes.
 
-- JPanel: this part works in conjunction with JFrame (creates the window of which the game runs in). JPanel groups all the other components to the JFrame window.
+**What each class (basically) does :**
+> - Action/KeyListener: reads the input of the user on the keyboard like Spacebar to hover, 'B' to restart and esc to quit the game
 
-- TopHalf and BottomHalf: These two work in conjunction with each other, as to maintain the same gap between them. Additionally, different images are needed for top and bottom half hence why they are also in 2 classes. Essentially they can be said as the behaving the same way according to the code
+> - JPanel: this part works in conjunction with JFrame (creates the window of which the game runs in). JPanel groups all the other components to the JFrame window.
 
-- Character: This is basically the class for the bird or the player.
+> - TopHalf and BottomHalf: These two work in conjunction with each other, as to maintain the same gap between them. Additionally, different images are needed for top and bottom half hence why they are also in 2 classes. Essentially they can be said as the behaving the same way according to the code
 
-- Gamescreen: This houses the start button, background fading, the background for the game and main menu, and the score.
+> - Character: This is basically the class for the bird or the player.
 
-3. Other
-  * Github project page:  https://github.com/farahfuaad/OOProject-Jan23-Flappy-Bird/blob/master/README.md
-  * Project Proposal [UPDATED]: [Java Application Project Proposal - Flappy Bird.pdf](https://github.com/farahfuaad/OOProject-Jan23-Flappy-Bird/files/11131667/Java.Application.Project.Proposal.-.Flappy.Bird.pdf)
-  * Team Commits in github: https://github.com/farahfuaad/OOProject-Jan23-Flappy-Bird/commits/master 
-  * Features:  
+> - Gamescreen: This houses the start button, background fading, the background for the game and main menu, and the score.
+
+**3. Other**
+>   * Github project page:  https://github.com/farahfuaad/OOProject-Jan23-Flappy-Bird/blob/master/README.md
+>   * Project Proposal [UPDATED]: [Java Application Project Proposal - Flappy Bird.pdf](https://github.com/farahfuaad/OOProject-Jan23-Flappy-Bird/files/11131667/Java.Application.Project.Proposal.-.Flappy.Bird.pdf)
+>    * Team Commits in github: https://github.com/farahfuaad/OOProject-Jan23-Flappy-Bird/commits/master 
+>   * Features:  
     Practically playable flappy bird game. Things to note:
     -collision detection using rectangles for hitbox
     -only one mode (endless mode)
     -Tubes are randomly generated, moves alongside the background.
     -Bird is a seperate entity from the background to accomodate collision detection methods.
   
-* Demo:
+> * Demo:
 
 
 
-* UML Diagram:  
-<img title="a title" alt="Alt text" src="https://user-images.githubusercontent.com/71580075/223759005-2a61f2bf-4b4c-4520-864d-01aebbe97447.png">
+> * UML Diagram:
+
+<img title="a title" alt="Alt text" src="https://user-images.githubusercontent.com/71580075/229368621-8c0dec53-5b0d-4c4c-8ad1-c02b624cad54.png">
 
 * **Reference:**  
 https://github.com/sunzhichao/FlappyBird
