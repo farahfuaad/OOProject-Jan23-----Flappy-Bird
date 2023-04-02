@@ -29,7 +29,7 @@
 >1. Farah Fuaad: Team leader, write report, gamescreen
 >2. Aunullah Memon: BottomHalf
 >3. Teoh Lynn Yi: JPanel
->4. Muhammad Hafizul Iman bin Mohd Fazni: JPanel
+>4. Muhammad Hafizul Iman bin Mohd Fazni: JPanel, write report
 >5. Ahmad Lutfi bin Ahmad Shaarizan: Character
 >6. Arham Tafhim bin Arnizzam: ActionListener, KeyListener
 >7. Nur Ainin Sofiya binti Tukiran: BottomHalf
