@@ -43,7 +43,7 @@ public class Main implements ActionListener, KeyListener {
 	
 	//other global objects
 	private static Main tc = new Main();
-	private static PlayGameScreen pgs; //panel that has the moving background at the start of the game
+	private static GameScreen pgs; //panel that has the moving background at the start of the game
 	
 	/**
 	 * Default constructor
@@ -116,7 +116,7 @@ public class Main implements ActionListener, KeyListener {
 		topPanel.add(startGame);
 		
 		//must add last to ensure button's visibility
-		pgs = new PlayGameScreen(SCREEN_WIDTH, SCREEN_HEIGHT, true); //true --> we want pgs to be the splash screen
+		pgs = new GameScreen(SCREEN_WIDTH, SCREEN_HEIGHT, true); //true --> we want pgs to be the splash screen
 		topPanel.add(pgs);
 		
 		return topPanel;
@@ -214,7 +214,7 @@ public class Main implements ActionListener, KeyListener {
 				
 				topPanel.removeAll();
 				topPanel.add(temp);
-				pgs = new PlayGameScreen(SCREEN_WIDTH, SCREEN_HEIGHT, false);
+				pgs = new GameScreen(SCREEN_WIDTH, SCREEN_HEIGHT, false);
 				pgs.sendText(""); //remove title text
 				topPanel.add(pgs);
 				
