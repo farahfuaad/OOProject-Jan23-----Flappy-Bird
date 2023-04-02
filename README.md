@@ -92,7 +92,7 @@
 
 > * UML Diagram:
 
-<img title="a title" alt="Alt text" src="https://user-images.githubusercontent.com/71580075/229368621-8c0dec53-5b0d-4c4c-8ad1-c02b624cad54.png">
+<img title="a title" alt="Alt text" src="https://user-images.githubusercontent.com/71580075/229369833-ea24b731-456d-49c5-8318-266a99c98222.png">
 
 * **Reference:**  
 https://github.com/sunzhichao/FlappyBird
