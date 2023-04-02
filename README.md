@@ -67,7 +67,7 @@
 - Tube: Simple green tube with some shading for depth effect for the top, green coloured. With the second tube having the exact same design just rotated 180 degrees using photoshop used for the bottom. Each tube's seperated length is the same and only their length relative to the ceiling and floor changes.
 
 What each class (basically) does :
-- Action/KeyListener: reads the input of the user on the keyboard like Spacbar to hover, B to restart and esc to quit the game
+- Action/KeyListener: reads the input of the user on the keyboard like Spacebar to hover, 'B' to restart and esc to quit the game
 
 - JPanel: this part works in conjunction with JFrame (creates the window of which the game runs in). JPanel groups all the other components to the JFrame window.
 
