@@ -25,7 +25,7 @@ public class Main implements ActionListener, KeyListener {
 	private static final int X_MOVEMENT_DIFFERENCE = 5; //distance the pipes move every update
 	private static final int SCREEN_DELAY = 300; //needed because of long load times forcing pipes to pop up mid-screen
 	private static final int BIRD_X_LOCATION = SCREEN_WIDTH/7;
-	private static final int BIRD_JUMP_DIFF = 10, BIRD_FALL_DIFF = BIRD_JUMP_DIFF/2, BIRD_JUMP_HEIGHT = PIPE_GAP - BIRD_HEIGHT - BIRD_JUMP_DIFF*2;
+	private static final int BIRD_JUMP_DIFF = 6, BIRD_FALL_DIFF = BIRD_JUMP_DIFF/2, BIRD_JUMP_HEIGHT = PIPE_GAP - BIRD_HEIGHT - BIRD_JUMP_DIFF*2;
 	
 	//global variables
 	private boolean loopVar = true; //false -> don't run loop; true -> run loop for pipes
@@ -109,7 +109,7 @@ public class Main implements ActionListener, KeyListener {
 		startGame.setBackground(Color.WHITE);
 		startGame.setForeground(Color.BLUE);
 		startGame.setFocusable(false); //rather than just setFocusabled(false)
-		startGame.setFont(new Font("Calibri", Font.BOLD, 42));
+		startGame.setFont(new Font("Calibri", Font.BOLD, 40));
 		startGame.setAlignmentX(0.5f); //center horizontally on-screen
 		startGame.setAlignmentY(0.5f); //center vertically on-screen
 		startGame.addActionListener(this);
@@ -346,7 +346,7 @@ public class Main implements ActionListener, KeyListener {
 	private int bottomPipeLoc() {
 		int temp = 0;
 		//iterate until temp is a value that allows both pipes to be onscreen
-		while(temp <= PIPE_GAP+50 || temp >= SCREEN_HEIGHT-PIPE_GAP) {
+		while(temp <= PIPE_GAP+40 || temp >= SCREEN_HEIGHT-PIPE_GAP) {
 			temp = (int) ((double) Math.random()*((double)SCREEN_HEIGHT));
 		}
 		return temp;
