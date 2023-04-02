@@ -5,7 +5,7 @@ import java.awt.FontMetrics;
 import java.awt.Graphics;
 import java.awt.Color;
 
-public class PlayGameScreen extends JPanel {
+public class GameScreen extends JPanel {
 	//default reference ID
 	private static final long serialVersionUID = 1L;
 	
@@ -23,7 +23,7 @@ public class PlayGameScreen extends JPanel {
 	/**
 	 * Default constructor for the PlayGameScreen class
 	 */
-	public PlayGameScreen(int screenWidth, int screenHeight, boolean isSplash) {
+	public GameScreen(int screenWidth, int screenHeight, boolean isSplash) {
 		this.screenWidth = screenWidth;
 		this.screenHeight = screenHeight;
 		this.isSplash = isSplash;
