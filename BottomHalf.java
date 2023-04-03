@@ -13,7 +13,7 @@ public class BottomHalf {
 	 * Default constructor
 	 */
 	public BottomHalf(int initialWidth, int initialHeight) {
-		bottomPipe = Toolkit.getDefaultToolkit().getImage(this.getClass().getResource("resources/tube_bottom.png"));
+		bottomPipe = Toolkit.getDefaultToolkit().getImage(this.getClass().getResource("resources/wood.png"));
 		scaleBottomPipe(initialWidth, initialHeight);
 	}
 	
