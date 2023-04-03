@@ -36,9 +36,9 @@ public class GameScreen extends JPanel {
 	public void paintComponent(Graphics g) {
 		super.paintComponent(g);
 		
-		g.setColor(new Color(89, 81, 247)); //color for the blue sky
+		g.setColor(new Color(165, 215, 232)); //color for the blue sky
 		g.fillRect(0, 0, screenWidth, screenHeight*7/8); //create the sky rectangle
-		g.setColor(new Color(147, 136, 9)); //brown color for ground
+		g.setColor(new Color(103, 93, 80)); //brown color for ground
 		g.fillRect(0, screenHeight*7/8, screenWidth, screenHeight/8); //create the ground rectangle
 		g.setColor(Color.BLACK); //dividing line color
 		g.drawLine(0, screenHeight*7/8, screenWidth, screenHeight*7/8); //draw the dividing line
