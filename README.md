@@ -44,7 +44,7 @@
 
 **How to run:**  
 > - Ensure user has the latest JDK (Java Development Kit)
-> - Simply install and click the .jar file given in demo section
+> - Simply install and run the Main.java file 
 > - Enjoy!
 
 
