@@ -86,13 +86,15 @@
     -Tubes are randomly generated, moves alongside the background.
     -Bird is a seperate entity from the background to accomodate collision detection methods.
   
-> * Demo:
+> * Demo: 
 
 https://user-images.githubusercontent.com/71580075/229385892-32f3e97d-458b-47c8-80e6-e8bf048b3243.mp4 
 
 > * UML Diagram:
 
 <img title="a title" alt="Alt text" src="https://user-images.githubusercontent.com/71580075/229369833-ea24b731-456d-49c5-8318-266a99c98222.png">
+
+> * Video Presentation:
 
 * **Reference:**  
 https://github.com/sunzhichao/FlappyBird
