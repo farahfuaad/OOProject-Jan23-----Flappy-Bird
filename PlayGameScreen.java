@@ -9,7 +9,6 @@ import java.awt.image.BufferedImage;
 public class PlayGameScreen extends JPanel {
 	//default reference ID
 	private static final long serialVersionUID = 1L;
-//	private static final BufferedImage backgroundImg;
 	
 	//global variables
 	private int screenWidth, screenHeight;
@@ -21,8 +20,6 @@ public class PlayGameScreen extends JPanel {
 	private BottomPipe bp1, bp2;
 	private TopPipe tp1, tp2;
 	private Bird bird;
-
-	private background bg;
 
 	/**
 	 * Default constructor for the PlayGameScreen class
@@ -46,7 +43,6 @@ public class PlayGameScreen extends JPanel {
 		g.fillRect(0, screenHeight*7/8, screenWidth, screenHeight/8); //create the ground rectangle
 		g.setColor(Color.BLACK); //dividing line color
 		g.drawLine(0, screenHeight*7/8, screenWidth, screenHeight*7/8); //draw the dividing line
-		//g.drawImage(bg.getBg(), bg.getX(), bg.getY(), null);
 		
 		//objects must be instantiated before they're drawn!
 		if(bp1 != null && bp2 != null && tp1 != null && tp2 != null) {
@@ -55,6 +51,8 @@ public class PlayGameScreen extends JPanel {
 			g.drawImage(tp1.getPipe(), tp1.getX(), tp1.getY(), null);
 			g.drawImage(tp2.getPipe(), tp2.getX(), tp2.getY(), null);
 		}
+
+
 		
 		if(!isSplash && bird != null) {
 			g.drawImage(bird.getBird(), bird.getX(), bird.getY(), null);
@@ -107,10 +105,6 @@ public class PlayGameScreen extends JPanel {
 	 */
 	public void setBird(Bird bird) {
 		this.bird = bird;
-	}
-
-	public void setBackground(background bg){
-		this.bg = bg;
 	}
 	
 	/**

@@ -21,6 +21,7 @@ public class Main implements ActionListener, KeyListener {
 	private static final int PIPE_GAP = SCREEN_HEIGHT/5; //distance in pixels between pipes
 	private static final int PIPE_WIDTH = SCREEN_WIDTH/8, PIPE_HEIGHT = 4*PIPE_WIDTH;
 	private static final int BIRD_WIDTH = 120, BIRD_HEIGHT = 75;
+
 	private static final int UPDATE_DIFFERENCE = 25; //time in ms between updates
 	private static final int X_MOVEMENT_DIFFERENCE = 5; //distance the pipes move every update
 	private static final int SCREEN_DELAY = 300; //needed because of long load times forcing pipes to pop up mid-screen
@@ -374,6 +375,7 @@ public class Main implements ActionListener, KeyListener {
 		collisionHelper(bird.getRectangle(), bp2.getRectangle(), bird.getBI(), bp2.getBI());
 		collisionHelper(bird.getRectangle(), tp1.getRectangle(), bird.getBI(), tp1.getBI());
 		collisionHelper(bird.getRectangle(), tp2.getRectangle(), bird.getBI(), tp2.getBI());
+
 		
 		if(bird.getY() + BIRD_HEIGHT > SCREEN_HEIGHT*7/8) { //ground detection
 			pgs.sendText("Game Over");
@@ -381,7 +383,7 @@ public class Main implements ActionListener, KeyListener {
 			gamePlay = false; //game has ended
 		}
 	}
-	
+
 	/**
 	 * Helper method to test the Bird object's potential collision with a pipe object.
 	 * @param r1 The Bird's rectangle component
