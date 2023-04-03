@@ -26,13 +26,13 @@
 
 **Task allocation:**
 >1. Farah Fuaad: Team leader, write project info, incharge in gamescreen class
->2. Aunullah Memon: incharge in BottomHalf class
->3. Teoh Lynn Yi: incharge in JPanel class
->4. Muhammad Hafizul Iman bin Mohd Fazni: incharge in JPanel class, write project info
->5. Ahmad Lutfi bin Ahmad Shaarizan: incharge in Character class
+>2. Aunullah Memon: incharge in BottomHalf class and sound class
+>3. Teoh Lynn Yi: incharge in Main class
+>4. Muhammad Hafizul Iman bin Mohd Fazni: incharge in Main class, write project info
+>5. Ahmad Lutfi bin Ahmad Shaarizan: incharge in Character class, compiling the video presentation
 >6. Arham Tafhim bin Arnizzam: incharge in ActionListener, KeyListener (Main class)
->7. Nur Ainin Sofiya binti Tukiran: incharge in BottomHalf class , write project info
->8. Muhammad Harif bin Mohd Afendi: incharge in TopHalf class, compiling the video presentation
+>7. Nur Ainin Sofiya binti Tukiran: incharge in BottomHalf class, write project info
+>8. Muhammad Harif bin Mohd Afendi: incharge in TopHalf class
 >9. Mohamad Aiman Syakir bin Anol Sazali: incharge in TopHalf class
 
 
